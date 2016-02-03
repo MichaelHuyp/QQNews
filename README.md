@@ -13,7 +13,7 @@
 
 ![(效果展示2)](http://img.hoop8.com/attachments/1602/0923755980586.gif)
 
-### 自定义push pop过长动画效果
+### 自定义push pop过场动画效果
 
 ![(效果展示3)](http://img.hoop8.com/attachments/1602/1113755980586.gif)
 
