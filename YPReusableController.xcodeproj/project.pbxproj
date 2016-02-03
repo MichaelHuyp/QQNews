@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA08C0EA1C60AEBC00F85724 /* Foundation+YPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DA08C0E91C60AEBC00F85724 /* Foundation+YPLog.m */; };
+		DA1CAE7D1C58604300C782F8 /* YPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1CAE7C1C58604300C782F8 /* YPBaseNavigationController.m */; };
+		DA1E4A6E1C5F04D2001DD9DE /* YPBaseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E4A6D1C5F04D2001DD9DE /* YPBaseCollectionCell.m */; };
+		DA1E4A711C5F0686001DD9DE /* YPChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E4A701C5F0686001DD9DE /* YPChannelCell.m */; };
+		DA1E4A731C5F0699001DD9DE /* YPChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1E4A721C5F0699001DD9DE /* YPChannelCell.xib */; };
+		DAC139B71C61D0F600DAA93D /* YPChannelFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC139B61C61D0F600DAA93D /* YPChannelFooterView.m */; };
+		DAC139BB1C61DBC200DAA93D /* YPCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC139BA1C61DBC200DAA93D /* YPCacheTool.m */; };
+		DAC2223F1C571636004557C4 /* UIScrollView+YPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC2222A1C571636004557C4 /* UIScrollView+YPAdd.m */; };
+		DAC222401C571636004557C4 /* UIView+YPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC2222C1C571636004557C4 /* UIView+YPAdd.m */; };
+		DAC222411C571636004557C4 /* YPReusableControllerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC2222E1C571636004557C4 /* YPReusableControllerConst.m */; };
+		DAC222421C571636004557C4 /* YPLeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC222311C571636004557C4 /* YPLeftMenuController.m */; };
+		DAC222431C571636004557C4 /* YPReusableController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC222331C571636004557C4 /* YPReusableController.m */; };
+		DAC222441C571636004557C4 /* YPSideController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC222351C571636004557C4 /* YPSideController.m */; };
+		DAC222451C571636004557C4 /* YPContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC222381C571636004557C4 /* YPContainerView.m */; };
+		DAC222461C571636004557C4 /* YPIconBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC2223A1C571636004557C4 /* YPIconBtn.m */; };
+		DAC222471C571636004557C4 /* YPStyleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC2223C1C571636004557C4 /* YPStyleBar.m */; };
+		DAC222481C571636004557C4 /* YPStyleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC2223E1C571636004557C4 /* YPStyleBtn.m */; };
+		DAC2224E1C571E96004557C4 /* YPChannelCustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC2224D1C571E96004557C4 /* YPChannelCustomController.m */; };
+		DAC222511C574447004557C4 /* YPCustomNavBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC222501C574447004557C4 /* YPCustomNavBarController.m */; };
+		DAD938041C3132170002F69B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD938031C3132170002F69B /* main.m */; };
+		DAD9380D1C3132170002F69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD9380B1C3132170002F69B /* Main.storyboard */; };
+		DAD9380F1C3132170002F69B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD9380E1C3132170002F69B /* Images.xcassets */; };
+		DAD938121C3132170002F69B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAD938101C3132170002F69B /* LaunchScreen.xib */; };
+		DAD9381E1C3132170002F69B /* YPReusableControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD9381D1C3132170002F69B /* YPReusableControllerTests.m */; };
+		DAD9382C1C3132530002F69B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD938291C3132530002F69B /* AppDelegate.m */; };
+		DAD9382D1C3132530002F69B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD9382B1C3132530002F69B /* ViewController.m */; };
+		DAD938371C3134380002F69B /* TestViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD938361C3134380002F69B /* TestViewControllerOne.m */; };
+		DAD9383A1C3134630002F69B /* TestViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD938391C3134630002F69B /* TestViewControllerTwo.m */; };
+		DAD938401C3134DF0002F69B /* TestViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD9383F1C3134DF0002F69B /* TestViewControllerThree.m */; };
+		DAD938431C3134E70002F69B /* TestViewControllerFour.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD938421C3134E70002F69B /* TestViewControllerFour.m */; };
+		DAD938461C3134EF0002F69B /* TestViewControllerFive.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD938451C3134EF0002F69B /* TestViewControllerFive.m */; };
+		DAD938491C3134F70002F69B /* TestViewControllerSix.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD938481C3134F70002F69B /* TestViewControllerSix.m */; };
+		DAE6CBC21C34D9A30048F54E /* TestViewControllerSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE6CBC11C34D9A30048F54E /* TestViewControllerSeven.m */; };
+		DAE92AA81C58A6BE003A6061 /* YPBaseAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE92AA71C58A6BE003A6061 /* YPBaseAnimator.m */; };
+		DAE92AAB1C58AF27003A6061 /* YPPopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE92AAA1C58AF27003A6061 /* YPPopAnimator.m */; };
+		DAE92AAE1C58B3DF003A6061 /* YPPushAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE92AAD1C58B3DF003A6061 /* YPPushAnimator.m */; };
+		DAE92AB11C58B683003A6061 /* YPBaseTransitionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE92AB01C58B683003A6061 /* YPBaseTransitionsController.m */; };
+		DAF8E91D1C51DA36007246D1 /* TestViewControllerEight.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF8E91C1C51DA36007246D1 /* TestViewControllerEight.m */; };
+		DAF8E9201C51DAA8007246D1 /* TestViewControllerNine.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF8E91F1C51DAA8007246D1 /* TestViewControllerNine.m */; };
+		DAF8E9231C51DAC5007246D1 /* TestViewController_10.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF8E9221C51DAC5007246D1 /* TestViewController_10.m */; };
+		DAF8E9261C51DAD1007246D1 /* TestViewController_11.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF8E9251C51DAD1007246D1 /* TestViewController_11.m */; };
+		DAF8E9291C51DAD9007246D1 /* TestViewControllerNine_12.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF8E9281C51DAD9007246D1 /* TestViewControllerNine_12.m */; };
+		DAF8E92C1C51DAE3007246D1 /* TestViewControllerNine_13.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF8E92B1C51DAE3007246D1 /* TestViewControllerNine_13.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD938181C3132170002F69B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD937F61C3132170002F69B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD937FD1C3132170002F69B;
+			remoteInfo = YPReusableController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA08C0E91C60AEBC00F85724 /* Foundation+YPLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+YPLog.m"; sourceTree = "<group>"; };
+		DA1CAE7B1C58604300C782F8 /* YPBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPBaseNavigationController.h; sourceTree = "<group>"; };
+		DA1CAE7C1C58604300C782F8 /* YPBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPBaseNavigationController.m; sourceTree = "<group>"; };
+		DA1E4A6C1C5F04D2001DD9DE /* YPBaseCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPBaseCollectionCell.h; sourceTree = "<group>"; };
+		DA1E4A6D1C5F04D2001DD9DE /* YPBaseCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPBaseCollectionCell.m; sourceTree = "<group>"; };
+		DA1E4A6F1C5F0686001DD9DE /* YPChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPChannelCell.h; sourceTree = "<group>"; };
+		DA1E4A701C5F0686001DD9DE /* YPChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPChannelCell.m; sourceTree = "<group>"; };
+		DA1E4A721C5F0699001DD9DE /* YPChannelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPChannelCell.xib; sourceTree = "<group>"; };
+		DAC139B51C61D0F600DAA93D /* YPChannelFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPChannelFooterView.h; sourceTree = "<group>"; };
+		DAC139B61C61D0F600DAA93D /* YPChannelFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPChannelFooterView.m; sourceTree = "<group>"; };
+		DAC139B91C61DBC200DAA93D /* YPCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPCacheTool.h; sourceTree = "<group>"; };
+		DAC139BA1C61DBC200DAA93D /* YPCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPCacheTool.m; sourceTree = "<group>"; };
+		DAC222291C571636004557C4 /* UIScrollView+YPAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YPAdd.h"; sourceTree = "<group>"; };
+		DAC2222A1C571636004557C4 /* UIScrollView+YPAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YPAdd.m"; sourceTree = "<group>"; };
+		DAC2222B1C571636004557C4 /* UIView+YPAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YPAdd.h"; sourceTree = "<group>"; };
+		DAC2222C1C571636004557C4 /* UIView+YPAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YPAdd.m"; sourceTree = "<group>"; };
+		DAC2222D1C571636004557C4 /* YPReusableControllerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPReusableControllerConst.h; sourceTree = "<group>"; };
+		DAC2222E1C571636004557C4 /* YPReusableControllerConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPReusableControllerConst.m; sourceTree = "<group>"; };
+		DAC222301C571636004557C4 /* YPLeftMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLeftMenuController.h; sourceTree = "<group>"; };
+		DAC222311C571636004557C4 /* YPLeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLeftMenuController.m; sourceTree = "<group>"; };
+		DAC222321C571636004557C4 /* YPReusableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPReusableController.h; sourceTree = "<group>"; };
+		DAC222331C571636004557C4 /* YPReusableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPReusableController.m; sourceTree = "<group>"; };
+		DAC222341C571636004557C4 /* YPSideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPSideController.h; sourceTree = "<group>"; };
+		DAC222351C571636004557C4 /* YPSideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPSideController.m; sourceTree = "<group>"; };
+		DAC222371C571636004557C4 /* YPContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPContainerView.h; sourceTree = "<group>"; };
+		DAC222381C571636004557C4 /* YPContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPContainerView.m; sourceTree = "<group>"; };
+		DAC222391C571636004557C4 /* YPIconBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPIconBtn.h; sourceTree = "<group>"; };
+		DAC2223A1C571636004557C4 /* YPIconBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPIconBtn.m; sourceTree = "<group>"; };
+		DAC2223B1C571636004557C4 /* YPStyleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPStyleBar.h; sourceTree = "<group>"; };
+		DAC2223C1C571636004557C4 /* YPStyleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPStyleBar.m; sourceTree = "<group>"; };
+		DAC2223D1C571636004557C4 /* YPStyleBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPStyleBtn.h; sourceTree = "<group>"; };
+		DAC2223E1C571636004557C4 /* YPStyleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPStyleBtn.m; sourceTree = "<group>"; };
+		DAC2224C1C571E96004557C4 /* YPChannelCustomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPChannelCustomController.h; sourceTree = "<group>"; };
+		DAC2224D1C571E96004557C4 /* YPChannelCustomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPChannelCustomController.m; sourceTree = "<group>"; };
+		DAC2224F1C574447004557C4 /* YPCustomNavBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPCustomNavBarController.h; sourceTree = "<group>"; };
+		DAC222501C574447004557C4 /* YPCustomNavBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPCustomNavBarController.m; sourceTree = "<group>"; };
+		DAD937FE1C3132170002F69B /* YPReusableController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPReusableController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD938021C3132170002F69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD938031C3132170002F69B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAD9380C1C3132170002F69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD9380E1C3132170002F69B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAD938111C3132170002F69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAD938171C3132170002F69B /* YPReusableControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPReusableControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD9381C1C3132170002F69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD9381D1C3132170002F69B /* YPReusableControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPReusableControllerTests.m; sourceTree = "<group>"; };
+		DAD938281C3132530002F69B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAD938291C3132530002F69B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAD9382A1C3132530002F69B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAD9382B1C3132530002F69B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAD938351C3134380002F69B /* TestViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerOne.h; sourceTree = "<group>"; };
+		DAD938361C3134380002F69B /* TestViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerOne.m; sourceTree = "<group>"; };
+		DAD938381C3134630002F69B /* TestViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerTwo.h; sourceTree = "<group>"; };
+		DAD938391C3134630002F69B /* TestViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerTwo.m; sourceTree = "<group>"; };
+		DAD9383E1C3134DF0002F69B /* TestViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerThree.h; sourceTree = "<group>"; };
+		DAD9383F1C3134DF0002F69B /* TestViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerThree.m; sourceTree = "<group>"; };
+		DAD938411C3134E70002F69B /* TestViewControllerFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerFour.h; sourceTree = "<group>"; };
+		DAD938421C3134E70002F69B /* TestViewControllerFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerFour.m; sourceTree = "<group>"; };
+		DAD938441C3134EF0002F69B /* TestViewControllerFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerFive.h; sourceTree = "<group>"; };
+		DAD938451C3134EF0002F69B /* TestViewControllerFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerFive.m; sourceTree = "<group>"; };
+		DAD938471C3134F70002F69B /* TestViewControllerSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerSix.h; sourceTree = "<group>"; };
+		DAD938481C3134F70002F69B /* TestViewControllerSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerSix.m; sourceTree = "<group>"; };
+		DAE6CBC01C34D9A30048F54E /* TestViewControllerSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerSeven.h; sourceTree = "<group>"; };
+		DAE6CBC11C34D9A30048F54E /* TestViewControllerSeven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerSeven.m; sourceTree = "<group>"; };
+		DAE92AA61C58A6BE003A6061 /* YPBaseAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPBaseAnimator.h; sourceTree = "<group>"; };
+		DAE92AA71C58A6BE003A6061 /* YPBaseAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPBaseAnimator.m; sourceTree = "<group>"; };
+		DAE92AA91C58AF27003A6061 /* YPPopAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPPopAnimator.h; sourceTree = "<group>"; };
+		DAE92AAA1C58AF27003A6061 /* YPPopAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPPopAnimator.m; sourceTree = "<group>"; };
+		DAE92AAC1C58B3DF003A6061 /* YPPushAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPPushAnimator.h; sourceTree = "<group>"; };
+		DAE92AAD1C58B3DF003A6061 /* YPPushAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPPushAnimator.m; sourceTree = "<group>"; };
+		DAE92AAF1C58B683003A6061 /* YPBaseTransitionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPBaseTransitionsController.h; sourceTree = "<group>"; };
+		DAE92AB01C58B683003A6061 /* YPBaseTransitionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPBaseTransitionsController.m; sourceTree = "<group>"; };
+		DAF8E91B1C51DA36007246D1 /* TestViewControllerEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerEight.h; sourceTree = "<group>"; };
+		DAF8E91C1C51DA36007246D1 /* TestViewControllerEight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerEight.m; sourceTree = "<group>"; };
+		DAF8E91E1C51DAA8007246D1 /* TestViewControllerNine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerNine.h; sourceTree = "<group>"; };
+		DAF8E91F1C51DAA8007246D1 /* TestViewControllerNine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerNine.m; sourceTree = "<group>"; };
+		DAF8E9211C51DAC5007246D1 /* TestViewController_10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController_10.h; sourceTree = "<group>"; };
+		DAF8E9221C51DAC5007246D1 /* TestViewController_10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_10.m; sourceTree = "<group>"; };
+		DAF8E9241C51DAD1007246D1 /* TestViewController_11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController_11.h; sourceTree = "<group>"; };
+		DAF8E9251C51DAD1007246D1 /* TestViewController_11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_11.m; sourceTree = "<group>"; };
+		DAF8E9271C51DAD9007246D1 /* TestViewControllerNine_12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerNine_12.h; sourceTree = "<group>"; };
+		DAF8E9281C51DAD9007246D1 /* TestViewControllerNine_12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerNine_12.m; sourceTree = "<group>"; };
+		DAF8E92A1C51DAE3007246D1 /* TestViewControllerNine_13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewControllerNine_13.h; sourceTree = "<group>"; };
+		DAF8E92B1C51DAE3007246D1 /* TestViewControllerNine_13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerNine_13.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD937FB1C3132170002F69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD938141C3132170002F69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC139B81C61DBB100DAA93D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DAC139B91C61DBC200DAA93D /* YPCacheTool.h */,
+				DAC139BA1C61DBC200DAA93D /* YPCacheTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		DAC222281C571636004557C4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DA08C0E91C60AEBC00F85724 /* Foundation+YPLog.m */,
+				DAC222291C571636004557C4 /* UIScrollView+YPAdd.h */,
+				DAC2222A1C571636004557C4 /* UIScrollView+YPAdd.m */,
+				DAC2222B1C571636004557C4 /* UIView+YPAdd.h */,
+				DAC2222C1C571636004557C4 /* UIView+YPAdd.m */,
+				DAC2222D1C571636004557C4 /* YPReusableControllerConst.h */,
+				DAC2222E1C571636004557C4 /* YPReusableControllerConst.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DAC2222F1C571636004557C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAC222301C571636004557C4 /* YPLeftMenuController.h */,
+				DAC222311C571636004557C4 /* YPLeftMenuController.m */,
+				DAC222321C571636004557C4 /* YPReusableController.h */,
+				DAC222331C571636004557C4 /* YPReusableController.m */,
+				DAC222341C571636004557C4 /* YPSideController.h */,
+				DAC222351C571636004557C4 /* YPSideController.m */,
+				DAC2224C1C571E96004557C4 /* YPChannelCustomController.h */,
+				DAC2224D1C571E96004557C4 /* YPChannelCustomController.m */,
+				DAC2224F1C574447004557C4 /* YPCustomNavBarController.h */,
+				DAC222501C574447004557C4 /* YPCustomNavBarController.m */,
+				DA1CAE7B1C58604300C782F8 /* YPBaseNavigationController.h */,
+				DA1CAE7C1C58604300C782F8 /* YPBaseNavigationController.m */,
+				DAE92AAF1C58B683003A6061 /* YPBaseTransitionsController.h */,
+				DAE92AB01C58B683003A6061 /* YPBaseTransitionsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAC222361C571636004557C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAC222371C571636004557C4 /* YPContainerView.h */,
+				DAC222381C571636004557C4 /* YPContainerView.m */,
+				DAC222391C571636004557C4 /* YPIconBtn.h */,
+				DAC2223A1C571636004557C4 /* YPIconBtn.m */,
+				DAC2223B1C571636004557C4 /* YPStyleBar.h */,
+				DAC2223C1C571636004557C4 /* YPStyleBar.m */,
+				DAC2223D1C571636004557C4 /* YPStyleBtn.h */,
+				DAC2223E1C571636004557C4 /* YPStyleBtn.m */,
+				DA1E4A6C1C5F04D2001DD9DE /* YPBaseCollectionCell.h */,
+				DA1E4A6D1C5F04D2001DD9DE /* YPBaseCollectionCell.m */,
+				DA1E4A6F1C5F0686001DD9DE /* YPChannelCell.h */,
+				DA1E4A701C5F0686001DD9DE /* YPChannelCell.m */,
+				DA1E4A721C5F0699001DD9DE /* YPChannelCell.xib */,
+				DAC139B51C61D0F600DAA93D /* YPChannelFooterView.h */,
+				DAC139B61C61D0F600DAA93D /* YPChannelFooterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAD937F51C3132170002F69B = {
+			isa = PBXGroup;
+			children = (
+				DAD938001C3132170002F69B /* YPReusableController */,
+				DAD9381A1C3132170002F69B /* YPReusableControllerTests */,
+				DAD937FF1C3132170002F69B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD937FF1C3132170002F69B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD937FE1C3132170002F69B /* YPReusableController.app */,
+				DAD938171C3132170002F69B /* YPReusableControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD938001C3132170002F69B /* YPReusableController */ = {
+			isa = PBXGroup;
+			children = (
+				DAD9382E1C3132670002F69B /* YPReusableController */,
+				DAD938271C3132530002F69B /* Demo */,
+				DAD938011C3132170002F69B /* Supporting Files */,
+			);
+			path = YPReusableController;
+			sourceTree = "<group>";
+		};
+		DAD938011C3132170002F69B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD9380B1C3132170002F69B /* Main.storyboard */,
+				DAD9380E1C3132170002F69B /* Images.xcassets */,
+				DAD938101C3132170002F69B /* LaunchScreen.xib */,
+				DAD938021C3132170002F69B /* Info.plist */,
+				DAD938031C3132170002F69B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD9381A1C3132170002F69B /* YPReusableControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD9381D1C3132170002F69B /* YPReusableControllerTests.m */,
+				DAD9381B1C3132170002F69B /* Supporting Files */,
+			);
+			path = YPReusableControllerTests;
+			sourceTree = "<group>";
+		};
+		DAD9381B1C3132170002F69B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD9381C1C3132170002F69B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD938271C3132530002F69B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DAD938281C3132530002F69B /* AppDelegate.h */,
+				DAD938291C3132530002F69B /* AppDelegate.m */,
+				DAD9382A1C3132530002F69B /* ViewController.h */,
+				DAD9382B1C3132530002F69B /* ViewController.m */,
+				DAD938351C3134380002F69B /* TestViewControllerOne.h */,
+				DAD938361C3134380002F69B /* TestViewControllerOne.m */,
+				DAD938381C3134630002F69B /* TestViewControllerTwo.h */,
+				DAD938391C3134630002F69B /* TestViewControllerTwo.m */,
+				DAD9383E1C3134DF0002F69B /* TestViewControllerThree.h */,
+				DAD9383F1C3134DF0002F69B /* TestViewControllerThree.m */,
+				DAD938411C3134E70002F69B /* TestViewControllerFour.h */,
+				DAD938421C3134E70002F69B /* TestViewControllerFour.m */,
+				DAD938441C3134EF0002F69B /* TestViewControllerFive.h */,
+				DAD938451C3134EF0002F69B /* TestViewControllerFive.m */,
+				DAD938471C3134F70002F69B /* TestViewControllerSix.h */,
+				DAD938481C3134F70002F69B /* TestViewControllerSix.m */,
+				DAE6CBC01C34D9A30048F54E /* TestViewControllerSeven.h */,
+				DAE6CBC11C34D9A30048F54E /* TestViewControllerSeven.m */,
+				DAF8E91B1C51DA36007246D1 /* TestViewControllerEight.h */,
+				DAF8E91C1C51DA36007246D1 /* TestViewControllerEight.m */,
+				DAF8E91E1C51DAA8007246D1 /* TestViewControllerNine.h */,
+				DAF8E91F1C51DAA8007246D1 /* TestViewControllerNine.m */,
+				DAF8E9211C51DAC5007246D1 /* TestViewController_10.h */,
+				DAF8E9221C51DAC5007246D1 /* TestViewController_10.m */,
+				DAF8E9241C51DAD1007246D1 /* TestViewController_11.h */,
+				DAF8E9251C51DAD1007246D1 /* TestViewController_11.m */,
+				DAF8E9271C51DAD9007246D1 /* TestViewControllerNine_12.h */,
+				DAF8E9281C51DAD9007246D1 /* TestViewControllerNine_12.m */,
+				DAF8E92A1C51DAE3007246D1 /* TestViewControllerNine_13.h */,
+				DAF8E92B1C51DAE3007246D1 /* TestViewControllerNine_13.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		DAD9382E1C3132670002F69B /* YPReusableController */ = {
+			isa = PBXGroup;
+			children = (
+				DAC139B81C61DBB100DAA93D /* Tool */,
+				DAE92AA51C58A4E9003A6061 /* Transitions */,
+				DAC222281C571636004557C4 /* Common */,
+				DAC2222F1C571636004557C4 /* Controller */,
+				DAC222361C571636004557C4 /* View */,
+			);
+			path = YPReusableController;
+			sourceTree = "<group>";
+		};
+		DAE92AA51C58A4E9003A6061 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				DAE92AA61C58A6BE003A6061 /* YPBaseAnimator.h */,
+				DAE92AA71C58A6BE003A6061 /* YPBaseAnimator.m */,
+				DAE92AA91C58AF27003A6061 /* YPPopAnimator.h */,
+				DAE92AAA1C58AF27003A6061 /* YPPopAnimator.m */,
+				DAE92AAC1C58B3DF003A6061 /* YPPushAnimator.h */,
+				DAE92AAD1C58B3DF003A6061 /* YPPushAnimator.m */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD937FD1C3132170002F69B /* YPReusableController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD938211C3132170002F69B /* Build configuration list for PBXNativeTarget "YPReusableController" */;
+			buildPhases = (
+				DAD937FA1C3132170002F69B /* Sources */,
+				DAD937FB1C3132170002F69B /* Frameworks */,
+				DAD937FC1C3132170002F69B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPReusableController;
+			productName = YPReusableController;
+			productReference = DAD937FE1C3132170002F69B /* YPReusableController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD938161C3132170002F69B /* YPReusableControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD938241C3132170002F69B /* Build configuration list for PBXNativeTarget "YPReusableControllerTests" */;
+			buildPhases = (
+				DAD938131C3132170002F69B /* Sources */,
+				DAD938141C3132170002F69B /* Frameworks */,
+				DAD938151C3132170002F69B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD938191C3132170002F69B /* PBXTargetDependency */,
+			);
+			name = YPReusableControllerTests;
+			productName = YPReusableControllerTests;
+			productReference = DAD938171C3132170002F69B /* YPReusableControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD937F61C3132170002F69B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tyiti;
+				TargetAttributes = {
+					DAD937FD1C3132170002F69B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DAD938161C3132170002F69B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DAD937FD1C3132170002F69B;
+					};
+				};
+			};
+			buildConfigurationList = DAD937F91C3132170002F69B /* Build configuration list for PBXProject "YPReusableController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD937F51C3132170002F69B;
+			productRefGroup = DAD937FF1C3132170002F69B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD937FD1C3132170002F69B /* YPReusableController */,
+				DAD938161C3132170002F69B /* YPReusableControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD937FC1C3132170002F69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1E4A731C5F0699001DD9DE /* YPChannelCell.xib in Resources */,
+				DAD9380D1C3132170002F69B /* Main.storyboard in Resources */,
+				DAD938121C3132170002F69B /* LaunchScreen.xib in Resources */,
+				DAD9380F1C3132170002F69B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD938151C3132170002F69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD937FA1C3132170002F69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE92AA81C58A6BE003A6061 /* YPBaseAnimator.m in Sources */,
+				DAF8E91D1C51DA36007246D1 /* TestViewControllerEight.m in Sources */,
+				DAF8E9261C51DAD1007246D1 /* TestViewController_11.m in Sources */,
+				DAF8E9231C51DAC5007246D1 /* TestViewController_10.m in Sources */,
+				DAD938371C3134380002F69B /* TestViewControllerOne.m in Sources */,
+				DAE92AAB1C58AF27003A6061 /* YPPopAnimator.m in Sources */,
+				DAC222431C571636004557C4 /* YPReusableController.m in Sources */,
+				DAC222451C571636004557C4 /* YPContainerView.m in Sources */,
+				DAD9382D1C3132530002F69B /* ViewController.m in Sources */,
+				DA1E4A711C5F0686001DD9DE /* YPChannelCell.m in Sources */,
+				DAC2224E1C571E96004557C4 /* YPChannelCustomController.m in Sources */,
+				DAC222401C571636004557C4 /* UIView+YPAdd.m in Sources */,
+				DA1E4A6E1C5F04D2001DD9DE /* YPBaseCollectionCell.m in Sources */,
+				DAD938401C3134DF0002F69B /* TestViewControllerThree.m in Sources */,
+				DAD938491C3134F70002F69B /* TestViewControllerSix.m in Sources */,
+				DAC222471C571636004557C4 /* YPStyleBar.m in Sources */,
+				DAC222481C571636004557C4 /* YPStyleBtn.m in Sources */,
+				DAE92AAE1C58B3DF003A6061 /* YPPushAnimator.m in Sources */,
+				DAF8E9201C51DAA8007246D1 /* TestViewControllerNine.m in Sources */,
+				DAD938461C3134EF0002F69B /* TestViewControllerFive.m in Sources */,
+				DAC222461C571636004557C4 /* YPIconBtn.m in Sources */,
+				DAF8E9291C51DAD9007246D1 /* TestViewControllerNine_12.m in Sources */,
+				DAD938431C3134E70002F69B /* TestViewControllerFour.m in Sources */,
+				DAC222441C571636004557C4 /* YPSideController.m in Sources */,
+				DAC139B71C61D0F600DAA93D /* YPChannelFooterView.m in Sources */,
+				DAC222511C574447004557C4 /* YPCustomNavBarController.m in Sources */,
+				DAC2223F1C571636004557C4 /* UIScrollView+YPAdd.m in Sources */,
+				DAE92AB11C58B683003A6061 /* YPBaseTransitionsController.m in Sources */,
+				DAF8E92C1C51DAE3007246D1 /* TestViewControllerNine_13.m in Sources */,
+				DA1CAE7D1C58604300C782F8 /* YPBaseNavigationController.m in Sources */,
+				DAC222411C571636004557C4 /* YPReusableControllerConst.m in Sources */,
+				DAE6CBC21C34D9A30048F54E /* TestViewControllerSeven.m in Sources */,
+				DAD9383A1C3134630002F69B /* TestViewControllerTwo.m in Sources */,
+				DAC139BB1C61DBC200DAA93D /* YPCacheTool.m in Sources */,
+				DAD9382C1C3132530002F69B /* AppDelegate.m in Sources */,
+				DAC222421C571636004557C4 /* YPLeftMenuController.m in Sources */,
+				DA08C0EA1C60AEBC00F85724 /* Foundation+YPLog.m in Sources */,
+				DAD938041C3132170002F69B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD938131C3132170002F69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD9381E1C3132170002F69B /* YPReusableControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD938191C3132170002F69B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD937FD1C3132170002F69B /* YPReusableController */;
+			targetProxy = DAD938181C3132170002F69B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD9380B1C3132170002F69B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD9380C1C3132170002F69B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD938101C3132170002F69B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD938111C3132170002F69B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD9381F1C3132170002F69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAD938201C3132170002F69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD938221C3132170002F69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YPReusableController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyiti.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAD938231C3132170002F69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YPReusableController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyiti.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAD938251C3132170002F69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YPReusableControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyiti.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPReusableController.app/YPReusableController";
+			};
+			name = Debug;
+		};
+		DAD938261C3132170002F69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YPReusableControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyiti.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPReusableController.app/YPReusableController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD937F91C3132170002F69B /* Build configuration list for PBXProject "YPReusableController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD9381F1C3132170002F69B /* Debug */,
+				DAD938201C3132170002F69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD938211C3132170002F69B /* Build configuration list for PBXNativeTarget "YPReusableController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD938221C3132170002F69B /* Debug */,
+				DAD938231C3132170002F69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD938241C3132170002F69B /* Build configuration list for PBXNativeTarget "YPReusableControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD938251C3132170002F69B /* Debug */,
+				DAD938261C3132170002F69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD937F61C3132170002F69B /* Project object */;
+}
