@@ -58,6 +58,7 @@
     
     if (self.viewControllers.count > 0) {
         UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGesture:)];
+        panGesture.maximumNumberOfTouches = 1;
         [self.view addGestureRecognizer:panGesture];
     }
     [super pushViewController:viewController animated:animated];
