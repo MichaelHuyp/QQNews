@@ -47,11 +47,11 @@
     TestViewControllerSix *sixVc = [[TestViewControllerSix alloc] init];
     TestViewControllerSeven *sevenVc = [[TestViewControllerSeven alloc] init];
     TestViewControllerEight *vc_8 = [[TestViewControllerEight alloc] init];
-    TestViewControllerSeven *vc_9 = [[TestViewControllerSeven alloc] init];
-    TestViewControllerSeven *vc_10 = [[TestViewControllerSeven alloc] init];
-    TestViewControllerSeven *vc_11 = [[TestViewControllerSeven alloc] init];
-    TestViewControllerSeven *vc_12 = [[TestViewControllerSeven alloc] init];
-    TestViewControllerSeven *vc_13 = [[TestViewControllerSeven alloc] init];
+    TestViewControllerNine *vc_9 = [[TestViewControllerNine alloc] init];
+    TestViewController_10 *vc_10 = [[TestViewController_10 alloc] init];
+    TestViewController_11 *vc_11 = [[TestViewController_11 alloc] init];
+    TestViewControllerNine_12 *vc_12 = [[TestViewControllerNine_12 alloc] init];
+    TestViewControllerNine_13 *vc_13 = [[TestViewControllerNine_13 alloc] init];
     
     NSArray *subViewController = @[oneVc,twoVc,threeVc,fourVc,fiveVc,sixVc,sevenVc,vc_8,vc_9,vc_10,vc_11,vc_12,vc_13];
     
